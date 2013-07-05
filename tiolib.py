@@ -1,7 +1,8 @@
-import serial,struct,platform
 '''
 DJMax Technika Arcade IO Board Library by Mario Mercaldi
 '''
+
+import serial,struct,platform
 
 class TGBoard(object):
   def __init__(self):
@@ -148,7 +149,8 @@ class TGBoard(object):
 			self.delay = 0x1E
 
 
-'''Example Usage:
+'''
+Example Usage:
 EMULATION = "ON"			
 ioboard = TGBoard()
 ioboard.sendSignal(ioboard.cardlight.getSignal())
