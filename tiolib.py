@@ -1,5 +1,6 @@
 '''
 DJMax Technika Arcade IO Board Library by Mario Mercaldi
+Special Thanks to King Gregory for his majesty's assistance.
 '''
 
 import serial,struct,platform
